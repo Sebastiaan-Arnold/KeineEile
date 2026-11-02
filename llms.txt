@@ -26,9 +26,11 @@ Keine Eile is an independent app by Sebastiaan Arnold. It is not an official Wie
 - [Home](https://sebastiaan-arnold.github.io/KeineEile/): what the app does
 - [Support and FAQ](https://sebastiaan-arnold.github.io/KeineEile/support.html): common questions and contact
 - [Privacy policy](https://sebastiaan-arnold.github.io/KeineEile/privacy.html): what data the app uses and where it goes
-- German versions: [Start](https://sebastiaan-arnold.github.io/KeineEile/de/), [Hilfe](https://sebastiaan-arnold.github.io/KeineEile/de/support.html), [Datenschutz](https://sebastiaan-arnold.github.io/KeineEile/de/datenschutz.html)
+- [Legal notice](https://sebastiaan-arnold.github.io/KeineEile/imprint.html): who runs the website (Impressum)
+- German versions: [Start](https://sebastiaan-arnold.github.io/KeineEile/de/), [Hilfe](https://sebastiaan-arnold.github.io/KeineEile/de/support.html), [Datenschutz](https://sebastiaan-arnold.github.io/KeineEile/de/datenschutz.html), [Impressum](https://sebastiaan-arnold.github.io/KeineEile/de/impressum.html)
 
 ## Contact
 
 - Support: support@keineeile.app
 - Privacy: privacy@keineeile.app
+- General: hello@keineeile.app

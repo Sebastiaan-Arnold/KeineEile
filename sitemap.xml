@@ -36,4 +36,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://sebastiaan-arnold.github.io/KeineEile/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://sebastiaan-arnold.github.io/KeineEile/de/datenschutz.html"/>
   </url>
+  <url>
+    <loc>https://sebastiaan-arnold.github.io/KeineEile/imprint.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sebastiaan-arnold.github.io/KeineEile/imprint.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sebastiaan-arnold.github.io/KeineEile/de/impressum.html"/>
+  </url>
+  <url>
+    <loc>https://sebastiaan-arnold.github.io/KeineEile/de/impressum.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sebastiaan-arnold.github.io/KeineEile/imprint.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sebastiaan-arnold.github.io/KeineEile/de/impressum.html"/>
+  </url>
 </urlset>
