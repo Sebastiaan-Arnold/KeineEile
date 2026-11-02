@@ -3,11 +3,94 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Keine Eile</title>
-<meta name="description" content="Keine Eile: do I have time, or do I have to run? An iPhone app for Vienna's public transport.">
+<title>Keine Eile – Vienna public transport departures with your walking time</title>
+<meta name="description" content="Keine Eile is an iPhone app for Vienna&#x27;s public transport. It combines Wiener Linien live departures with your walk to the stop and tells you whether to leave now, leave later or hurry.">
 <link rel="icon" href="icon.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="stylesheet" href="style.css?v=4">
+<!-- seo -->
+<link rel="canonical" href="https://sebastiaan-arnold.github.io/KeineEile-site/">
+<link rel="alternate" hreflang="en" href="https://sebastiaan-arnold.github.io/KeineEile-site/">
+<link rel="alternate" hreflang="de" href="https://sebastiaan-arnold.github.io/KeineEile-site/de/">
+<link rel="alternate" hreflang="x-default" href="https://sebastiaan-arnold.github.io/KeineEile-site/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Keine Eile">
+<meta property="og:title" content="Keine Eile – Vienna public transport departures with your walking time">
+<meta property="og:description" content="Keine Eile is an iPhone app for Vienna&#x27;s public transport. It combines Wiener Linien live departures with your walk to the stop and tells you whether to leave now, leave later or hurry.">
+<meta property="og:url" content="https://sebastiaan-arnold.github.io/KeineEile-site/">
+<meta property="og:image" content="https://sebastiaan-arnold.github.io/KeineEile-site/icon.png">
+<meta property="og:locale" content="en_GB">
+<meta property="og:locale:alternate" content="de_AT">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MobileApplication",
+   "@id": "https://sebastiaan-arnold.github.io/KeineEile-site/#app",
+   "name": "Keine Eile",
+   "url": "https://sebastiaan-arnold.github.io/KeineEile-site/",
+   "description": "Keine Eile is an iPhone app for Vienna's public transport. It combines Wiener Linien live departures with your walk to the stop and tells you whether to leave now, leave later or hurry.",
+   "applicationCategory": "TravelApplication",
+   "operatingSystem": "iOS 18 or later",
+   "availableOnDevice": "iPhone",
+   "inLanguage": [
+    "en",
+    "de"
+   ],
+   "image": "https://sebastiaan-arnold.github.io/KeineEile-site/icon.png",
+   "author": {
+    "@id": "https://sebastiaan-arnold.github.io/KeineEile-site/#author"
+   },
+   "areaServed": {
+    "@type": "City",
+    "name": "Vienna",
+    "alternateName": "Wien"
+   },
+   "featureList": [
+    "Live Wiener Linien departures for nearby stops and favourite lines",
+    "Walking time to the stop from Apple Maps, optionally adjusted to your own pace",
+    "Leave status: leave in X min, leave now, or hurry (Eile!)",
+    "Fastest way to a saved destination with the Wiener Linien journey planner",
+    "Home-screen and lock-screen widgets, Live Activity and Siri",
+    "No account, no tracking"
+   ]
+  },
+  {
+   "@type": "Person",
+   "@id": "https://sebastiaan-arnold.github.io/KeineEile-site/#author",
+   "name": "Sebastiaan Arnold"
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://sebastiaan-arnold.github.io/KeineEile-site/#website",
+   "url": "https://sebastiaan-arnold.github.io/KeineEile-site/",
+   "name": "Keine Eile",
+   "inLanguage": [
+    "en",
+    "de"
+   ],
+   "publisher": {
+    "@id": "https://sebastiaan-arnold.github.io/KeineEile-site/#author"
+   }
+  },
+  {
+   "@type": "WebPage",
+   "url": "https://sebastiaan-arnold.github.io/KeineEile-site/",
+   "name": "Keine Eile – Vienna public transport departures with your walking time",
+   "inLanguage": "en",
+   "about": {
+    "@id": "https://sebastiaan-arnold.github.io/KeineEile-site/#app"
+   },
+   "isPartOf": {
+    "@id": "https://sebastiaan-arnold.github.io/KeineEile-site/#website"
+   }
+  }
+ ]
+}
+</script>
+<!-- /seo -->
+<link rel="stylesheet" href="style.css?v=5">
 </head>
 <body>
 <main class="wide">
@@ -73,6 +156,18 @@
       <b>Private</b><span>No account, no tracking. Your data stays on your iPhone.</span>
     </div>
   </div>
+
+  <section class="facts" aria-labelledby="facts-title">
+    <h2 id="facts-title">At a glance</h2>
+    <dl>
+      <div><dt>Platform</dt><dd>iPhone, iOS 18 or later</dd></div>
+      <div><dt>Languages</dt><dd>English, German</dd></div>
+      <div><dt>Coverage</dt><dd>Vienna: Wiener Linien U-Bahn, trams and buses</dd></div>
+      <div><dt>Data</dt><dd>Live departures from <a href="https://www.wienerlinien.at/open-data">Wiener Linien open data</a>; walking times from Apple Maps</dd></div>
+      <div><dt>Account</dt><dd>None needed</dd></div>
+      <div><dt>Availability</dt><dd>Coming soon to the App Store</dd></div>
+    </dl>
+  </section>
 
   <footer class="muted">
     <div class="stripe"><i style="background:#e3000f"></i><i style="background:#a661a3"></i><i style="background:#ed7d00"></i><i style="background:#309e4a"></i><i style="background:#299094"></i><i style="background:#9e6930"></i></div>

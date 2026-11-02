@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://sebastiaan-arnold.github.io/KeineEile-site/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sebastiaan-arnold.github.io/KeineEile-site/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sebastiaan-arnold.github.io/KeineEile-site/de/"/>
+  </url>
+  <url>
+    <loc>https://sebastiaan-arnold.github.io/KeineEile-site/de/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sebastiaan-arnold.github.io/KeineEile-site/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sebastiaan-arnold.github.io/KeineEile-site/de/"/>
+  </url>
+  <url>
+    <loc>https://sebastiaan-arnold.github.io/KeineEile-site/support.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sebastiaan-arnold.github.io/KeineEile-site/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sebastiaan-arnold.github.io/KeineEile-site/de/support.html"/>
+  </url>
+  <url>
+    <loc>https://sebastiaan-arnold.github.io/KeineEile-site/de/support.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sebastiaan-arnold.github.io/KeineEile-site/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sebastiaan-arnold.github.io/KeineEile-site/de/support.html"/>
+  </url>
+  <url>
+    <loc>https://sebastiaan-arnold.github.io/KeineEile-site/privacy.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sebastiaan-arnold.github.io/KeineEile-site/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sebastiaan-arnold.github.io/KeineEile-site/de/datenschutz.html"/>
+  </url>
+  <url>
+    <loc>https://sebastiaan-arnold.github.io/KeineEile-site/de/datenschutz.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sebastiaan-arnold.github.io/KeineEile-site/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sebastiaan-arnold.github.io/KeineEile-site/de/datenschutz.html"/>
+  </url>
+</urlset>

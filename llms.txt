@@ -1,0 +1,29 @@
+# Keine Eile
+
+> Keine Eile ("no hurry") is an iPhone app for Vienna's public transport. It combines Wiener Linien live departures with the walk to the stop and answers one question at a glance: do I have time, or do I have to run?
+
+Keine Eile is an independent app by Sebastiaan Arnold. It is not an official Wiener Linien app and is not made, endorsed or checked by Wiener Linien.
+
+## Facts
+
+- Platform: iPhone, iOS 18 or later
+- Languages: English and German
+- Coverage: Vienna only (Wiener Linien U-Bahn, trams and buses, plus Badner Bahn in journey planning). No S-Bahn or regional trains.
+- Data: live departures and journey planning from Wiener Linien open data (CC BY 4.0); walking times and address search from Apple Maps
+- Account: none. No tracking, no analytics, no advertising, no server of its own
+- Availability: coming soon to the App Store
+
+## What it does
+
+- Shows nearby stops and favourite lines with live departures
+- Works out the walk to the stop (Apple Maps, optionally adjusted to the user's own pace learned on the device from step data)
+- Shows a status for each departure: "leave in X min" (green), "leave now" (orange) or "Eile!" (red: only if you hurry). From an hour ahead it shows a clock time ("leave at 07:00")
+- Plans the fastest way to one saved destination (for example home or work) with the Wiener Linien journey planner
+- Home-screen and lock-screen widgets, a Live Activity for a tracked departure, and Siri shortcuts ("When do I need to leave?", "Way home")
+
+## Pages
+
+- [Home](https://sebastiaan-arnold.github.io/KeineEile-site/): what the app does
+- [Support and FAQ](https://sebastiaan-arnold.github.io/KeineEile-site/support.html): common questions and contact
+- [Privacy policy](https://sebastiaan-arnold.github.io/KeineEile-site/privacy.html): what data the app uses and where it goes
+- German versions: [Start](https://sebastiaan-arnold.github.io/KeineEile-site/de/), [Hilfe](https://sebastiaan-arnold.github.io/KeineEile-site/de/support.html), [Datenschutz](https://sebastiaan-arnold.github.io/KeineEile-site/de/datenschutz.html)
