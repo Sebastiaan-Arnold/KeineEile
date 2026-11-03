@@ -48,4 +48,28 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://sebastiaan-arnold.github.io/KeineEile/imprint.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://sebastiaan-arnold.github.io/KeineEile/de/impressum.html"/>
   </url>
+  <url>
+    <loc>https://sebastiaan-arnold.github.io/KeineEile/about.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sebastiaan-arnold.github.io/KeineEile/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sebastiaan-arnold.github.io/KeineEile/de/ueber.html"/>
+  </url>
+  <url>
+    <loc>https://sebastiaan-arnold.github.io/KeineEile/de/ueber.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sebastiaan-arnold.github.io/KeineEile/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sebastiaan-arnold.github.io/KeineEile/de/ueber.html"/>
+  </url>
+  <url>
+    <loc>https://sebastiaan-arnold.github.io/KeineEile/guides.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sebastiaan-arnold.github.io/KeineEile/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sebastiaan-arnold.github.io/KeineEile/de/anleitungen.html"/>
+  </url>
+  <url>
+    <loc>https://sebastiaan-arnold.github.io/KeineEile/de/anleitungen.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://sebastiaan-arnold.github.io/KeineEile/guides.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://sebastiaan-arnold.github.io/KeineEile/de/anleitungen.html"/>
+  </url>
 </urlset>

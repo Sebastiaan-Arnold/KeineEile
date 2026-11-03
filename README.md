@@ -7,9 +7,13 @@ The website of **Keine Eile**, an iPhone app for Vienna's public transport. It c
 | Page | English | German |
 |---|---|---|
 | Home | [index.html](index.html) | [de/index.html](de/index.html) |
+| About | [about.html](about.html) | [de/ueber.html](de/ueber.html) |
+| Guides and troubleshooting | [guides.html](guides.html) | [de/anleitungen.html](de/anleitungen.html) |
 | Support and FAQ | [support.html](support.html) | [de/support.html](de/support.html) |
 | Privacy policy | [privacy.html](privacy.html) | [de/datenschutz.html](de/datenschutz.html) |
 | Legal notice | [imprint.html](imprint.html) | [de/impressum.html](de/impressum.html) |
+
+Screenshots for the guides are in `images/guide/` (`en-` and `de-` versions, taken in the iOS simulator).
 
 Plain HTML and CSS, served by GitHub Pages from the `main` branch. No build step, no cookies, no tracking.
 

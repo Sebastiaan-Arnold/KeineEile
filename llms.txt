@@ -24,10 +24,12 @@ Keine Eile is an independent app by Sebastiaan Arnold. It is not an official Wie
 ## Pages
 
 - [Home](https://sebastiaan-arnold.github.io/KeineEile/): what the app does
+- [About](https://sebastiaan-arnold.github.io/KeineEile/about.html): why the app exists, who makes it, data sources
+- [Guides and troubleshooting](https://sebastiaan-arnold.github.io/KeineEile/guides.html): step-by-step guides with screenshots and fixes for common problems
 - [Support and FAQ](https://sebastiaan-arnold.github.io/KeineEile/support.html): common questions and contact
 - [Privacy policy](https://sebastiaan-arnold.github.io/KeineEile/privacy.html): what data the app uses and where it goes
 - [Legal notice](https://sebastiaan-arnold.github.io/KeineEile/imprint.html): who runs the website (Impressum)
-- German versions: [Start](https://sebastiaan-arnold.github.io/KeineEile/de/), [Hilfe](https://sebastiaan-arnold.github.io/KeineEile/de/support.html), [Datenschutz](https://sebastiaan-arnold.github.io/KeineEile/de/datenschutz.html), [Impressum](https://sebastiaan-arnold.github.io/KeineEile/de/impressum.html)
+- German versions: [Start](https://sebastiaan-arnold.github.io/KeineEile/de/), [Über](https://sebastiaan-arnold.github.io/KeineEile/de/ueber.html), [Anleitungen](https://sebastiaan-arnold.github.io/KeineEile/de/anleitungen.html), [Hilfe](https://sebastiaan-arnold.github.io/KeineEile/de/support.html), [Datenschutz](https://sebastiaan-arnold.github.io/KeineEile/de/datenschutz.html), [Impressum](https://sebastiaan-arnold.github.io/KeineEile/de/impressum.html)
 
 ## Contact
 
