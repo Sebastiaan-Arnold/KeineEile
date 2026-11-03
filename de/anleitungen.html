@@ -39,12 +39,13 @@
 }
 </script>
 <!-- /seo -->
-<link rel="stylesheet" href="../style.css?v=6">
+<link rel="stylesheet" href="../style.css?v=7">
 </head>
 <body>
 <main>
   <header>
     <a class="brand" href="./">Keine Eile</a>
+    <nav class="site" aria-label="Menü"><a href="ueber.html">Über</a><a href="anleitungen.html" aria-current="page">Anleitungen</a><a href="support.html">Hilfe</a></nav>
     <a class="lang" href="../guides.html" hreflang="en">English</a>
   </header>
   <div class="lines"></div>
@@ -77,6 +78,7 @@
   </nav>
 
   <h2 class="part">Anleitungen</h2>
+  <div class="guides">
 
   <section class="guide" id="hauptbildschirm">
     <div>
@@ -187,19 +189,22 @@
     </div>
   </section>
 
+  </div>
+
   <h2 class="part">Problemlösung</h2>
+  <div class="guides fixes">
 
   <section class="guide" id="standort">
     <div>
       <h3>Es werden keine Haltestellen angezeigt</h3>
-      <p>Steht in der App <em>„Der Standortzugriff ist ausgeschaltet“</em> oder <em>„Der genaue Standort ist ausgeschaltet“</em>, kann sie die Haltestellen rund um dich nicht finden und den Weg nicht berechnen.</p>
+      <p>Steht in der App <span class="msg">Der Standortzugriff ist ausgeschaltet</span> oder <span class="msg">Der genaue Standort ist ausgeschaltet</span>, kann sie die Haltestellen rund um dich nicht finden und den Weg nicht berechnen.</p>
       <ol class="steps">
         <li>Öffne die App <strong>Einstellungen</strong> auf deinem iPhone.</li>
         <li>Tipp auf <strong>Apps</strong> → <strong>Keine Eile</strong> → <strong>Ort</strong>.</li>
         <li>Wähl <strong>Beim Verwenden der App</strong>.</li>
         <li>Schalte <strong>Genauer Standort</strong> ein.</li>
       </ol>
-      <p>Steht da <em>„Keine Stationen im Umkreis von 1 km.“</em>? Keine Eile gibt es nur für Wien. Außerhalb des Netzes der Wiener Linien funktionieren die Suche und deine Favoriten trotzdem.</p>
+      <p>Steht da <span class="msg">Keine Stationen im Umkreis von 1 km.</span>? Keine Eile gibt es nur für Wien. Außerhalb des Netzes der Wiener Linien funktionieren die Suche und deine Favoriten trotzdem.</p>
     </div>
     <div class="shots">
       <figure class="shot"><img src="../images/guide/de-ios-app.jpg" width="600" height="495" loading="lazy" alt="iPhone-Einstellungen, Apps, Keine Eile: Ort und Live-Aktivitäten"></figure>
@@ -253,7 +258,7 @@
   <section class="guide" id="tempo-probleme">
     <div>
       <h3>Das Gehtempo wird nicht gelernt</h3>
-      <p>Steht in der App <em>„Bewegung &amp; Fitness in den Einstellungen erlauben“</em>, geh zu <strong>Einstellungen</strong> → <strong>Datenschutz &amp; Sicherheit</strong> → <strong>Bewegung &amp; Fitness</strong> und schalte <strong>Keine Eile</strong> ein. Die App nutzt die Schrittdaten der letzten 7 Tage. Am besten klappt es also, wenn du dein iPhone schon bei ein paar Wegen dabeihattest.</p>
+      <p>Steht in der App <span class="msg">Bewegung &amp; Fitness in den Einstellungen erlauben</span>, geh zu <strong>Einstellungen</strong> → <strong>Datenschutz &amp; Sicherheit</strong> → <strong>Bewegung &amp; Fitness</strong> und schalte <strong>Keine Eile</strong> ein. Die App nutzt die Schrittdaten der letzten 7 Tage. Am besten klappt es also, wenn du dein iPhone schon bei ein paar Wegen dabeihattest.</p>
     </div>
   </section>
 
@@ -269,7 +274,9 @@
     </div>
   </section>
 
-  <div class="card">
+  </div>
+
+  <div class="card cta">
     <p><strong>Kommst du nicht weiter?</strong> Schreib an <a href="mailto:support@keineeile.app">support@keineeile.app</a>. Sag uns bitte dein iPhone-Modell und deine iOS-Version und häng, wenn möglich, einen Screenshot an. Weitere Antworten findest du auf der Seite <a href="support.html">Hilfe und Kontakt</a>.</p>
   </div>
 

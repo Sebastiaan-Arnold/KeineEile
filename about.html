@@ -39,53 +39,72 @@
 }
 </script>
 <!-- /seo -->
-<link rel="stylesheet" href="style.css?v=6">
+<link rel="stylesheet" href="style.css?v=7">
 </head>
 <body>
 <main>
   <header>
     <a class="brand" href="./">Keine Eile</a>
+    <nav class="site" aria-label="Menu"><a href="about.html" aria-current="page">About</a><a href="guides.html">Guides</a><a href="support.html">Support</a></nav>
     <a class="lang" href="de/ueber.html" hreflang="de">Deutsch</a>
   </header>
   <div class="lines"></div>
   <p class="unofficial">Independent app · not an official Wiener Linien app</p>
 
-  <h1>About Keine Eile</h1>
-  <p class="tagline">"Keine Eile" is German for "no rush".</p>
+  <div class="hero">
+    <img src="icon.png" alt="Keine Eile app icon">
+    <div>
+      <h1>About Keine Eile</h1>
+      <p class="tagline">"Keine Eile" is German for "no rush".</p>
+    </div>
+  </div>
 
-  <p>You're about to leave the flat, the U-Bahn goes in six minutes, and the stop is a five-minute walk away. Can you still make it, or do you have to run? Departure boards tell you when the train leaves, but not when <em>you</em> need to leave.</p>
+  <p class="lead">You're about to leave the flat, the U-Bahn goes in six minutes, and the stop is a five-minute walk away. Can you still make it, or do you have to run? Departure boards tell you when the train leaves, but not when <em>you</em> need to leave.</p>
   <p>Keine Eile answers that one question. It combines the live departures of Wiener Linien with your walk to the stop and shows, at a glance, whether you have time, should leave now, or only make it if you hurry.</p>
 
-  <h2>A hobby project</h2>
-  <p>Keine Eile is a hobby project by Sebastiaan Arnold, made in spare time. There's no company behind it and no business plan. The goal isn't to make money, but to make something useful: a small tool that makes everyday trips around Vienna a little calmer.</p>
-  <p>That's why Keine Eile is free, with no ads, no in-app purchases, no subscription and no account. It's meant to stay that way.</p>
+  <section class="story">
+    <h2>A hobby project</h2>
+    <p>Keine Eile is a hobby project by Sebastiaan Arnold, made in spare time. There's no company behind it and no business plan. The goal isn't to make money, but to make something useful: a small tool that makes everyday trips around Vienna a little calmer.</p>
+    <p>That's why Keine Eile is free, and it's meant to stay that way.</p>
+    <ul class="chips">
+      <li>Free</li><li>No ads</li><li>No in-app purchases</li><li>No subscription</li><li>No account</li><li>Made in Austria</li>
+    </ul>
+  </section>
 
   <h2>What makes it different</h2>
-  <ul>
-    <li><strong>It tells you when to leave.</strong> Not just when the train goes, but when you need to walk out of the door to catch it.</li>
-    <li><strong>Your walk, your pace.</strong> Walking times come from Apple Maps, and the app can learn how fast you really walk. Need a few extra minutes to get down to the street? You can add them.</li>
-    <li><strong>One glance is enough.</strong> Green, orange or red, on the main screen, in widgets, on the Lock Screen and through Siri. No timetables to read, no maths in your head.</li>
-  </ul>
+  <div class="tiles three">
+    <div class="tile">
+      <svg viewBox="0 0 30 30" aria-hidden="true"><circle cx="15" cy="15" r="12" fill="none" stroke="#e3000f" stroke-width="2.5"/><path d="M15 8v7l5 3" fill="none" stroke="#e3000f" stroke-width="2.5" stroke-linecap="round"/></svg>
+      <b>It tells you when to leave</b><span>Not just when the train goes, but when you need to walk out of the door to catch it.</span>
+    </div>
+    <div class="tile">
+      <svg viewBox="0 0 30 30" aria-hidden="true"><circle cx="17" cy="5" r="2.6" fill="#309e4a"/><path d="M15.5 9.5l-3 7 4 3.5-1.5 7M12.5 16.5l-3.5 2M16 11l4.5 4 3-1M13 20l-4 6" fill="none" stroke="#309e4a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <b>Your walk, your pace</b><span>Walking times from Apple Maps, adjusted to how fast you really walk, plus extra time if you need it.</span>
+    </div>
+    <div class="tile">
+      <svg viewBox="0 0 30 30" aria-hidden="true"><circle cx="7" cy="15" r="4.5" fill="#34c759"/><circle cx="15" cy="15" r="4.5" fill="#ff9500"/><circle cx="23" cy="15" r="4.5" fill="#ff3b30"/></svg>
+      <b>One glance is enough</b><span>Green, orange or red: in the app, in widgets, on the Lock Screen and through Siri.</span>
+    </div>
+  </div>
 
   <h2>What I care about</h2>
-  <ul>
-    <li><strong>Calm, not hurry.</strong> The name says it: a good tool lets you stop checking and just go.</li>
-    <li><strong>Privacy.</strong> No tracking, no analytics and no server of my own. Your favourites and settings stay on your iPhone, and there's nothing to sell. Read the <a href="privacy.html">privacy policy</a>.</li>
-    <li><strong>Honesty.</strong> The app shows what Wiener Linien publish, and it tells you when the times might be out of date instead of pretending they're fresh.</li>
-    <li><strong>Simplicity.</strong> Keine Eile does one thing and tries to do it well. No clutter, no feeds, nothing that doesn't help you get out of the door on time.</li>
-  </ul>
+  <div class="values">
+    <div style="--c:#e3000f"><b>Calm, not hurry</b><span>The name says it: a good tool lets you stop checking and just go.</span></div>
+    <div style="--c:#a661a3"><b>Privacy</b><span>No tracking, no analytics and no server of my own. Your favourites and settings stay on your iPhone, and there's nothing to sell. Read the <a href="privacy.html">privacy policy</a>.</span></div>
+    <div style="--c:#ed7d00"><b>Honesty</b><span>The app shows what Wiener Linien publish, and tells you when times might be out of date instead of pretending they're fresh.</span></div>
+    <div style="--c:#309e4a"><b>Simplicity</b><span>It does one thing and tries to do it well. No clutter, no feeds, nothing that doesn't help you get out of the door on time.</span></div>
+  </div>
 
   <h2>Where the data comes from</h2>
   <ul>
     <li><strong>Departures, disruptions and journeys:</strong> <a href="https://www.wienerlinien.at/open-data">Wiener Linien open data</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Times can be late, incomplete or wrong, so allow some extra time when it matters.</li>
     <li><strong>Walking times and address search:</strong> Apple Maps.</li>
   </ul>
-  <p>Keine Eile is an independent project and is not made, endorsed or checked by Wiener Linien.</p>
+  <p class="muted">Keine Eile is an independent project and is not made, endorsed or checked by Wiener Linien.</p>
 
-  <h2>Get in touch</h2>
-  <div class="card">
-    <p>Feedback is what keeps a hobby project going, so ideas, praise and bug reports are all welcome. Write to <a href="mailto:support@keineeile.app">support@keineeile.app</a>, or <a href="mailto:hello@keineeile.app">hello@keineeile.app</a> for anything else.</p>
-    <p>Stuck with something? Have a look at the <a href="guides.html">guides and troubleshooting</a>.</p>
+  <div class="card cta">
+    <p><strong>Get in touch.</strong> Feedback is what keeps a hobby project going, so ideas, praise and bug reports are all welcome. Write to <a href="mailto:support@keineeile.app">support@keineeile.app</a>, or <a href="mailto:hello@keineeile.app">hello@keineeile.app</a> for anything else.</p>
+    <div class="links"><a class="button" href="guides.html">Guides and troubleshooting</a><a class="button quiet" href="support.html">Support</a></div>
   </div>
 
   <footer class="muted">

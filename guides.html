@@ -39,12 +39,13 @@
 }
 </script>
 <!-- /seo -->
-<link rel="stylesheet" href="style.css?v=6">
+<link rel="stylesheet" href="style.css?v=7">
 </head>
 <body>
 <main>
   <header>
     <a class="brand" href="./">Keine Eile</a>
+    <nav class="site" aria-label="Menu"><a href="about.html">About</a><a href="guides.html" aria-current="page">Guides</a><a href="support.html">Support</a></nav>
     <a class="lang" href="de/anleitungen.html" hreflang="de">Deutsch</a>
   </header>
   <div class="lines"></div>
@@ -77,6 +78,7 @@
   </nav>
 
   <h2 class="part">Guides</h2>
+  <div class="guides">
 
   <section class="guide" id="main-screen">
     <div>
@@ -187,19 +189,22 @@
     </div>
   </section>
 
+  </div>
+
   <h2 class="part">Troubleshooting</h2>
+  <div class="guides fixes">
 
   <section class="guide" id="location">
     <div>
       <h3>No stops are shown</h3>
-      <p>If the app says <em>"Location access is turned off"</em> or <em>"Precise location is off"</em>, it can't find the stops near you or work out the walk.</p>
+      <p>If the app says <span class="msg">Location access is turned off</span> or <span class="msg">Precise location is off</span>, it can't find the stops near you or work out the walk.</p>
       <ol class="steps">
         <li>Open the iPhone <strong>Settings</strong> app.</li>
         <li>Tap <strong>Apps</strong> → <strong>Keine Eile</strong> → <strong>Location</strong>.</li>
         <li>Choose <strong>While Using the App</strong>.</li>
         <li>Turn on <strong>Precise Location</strong>.</li>
       </ol>
-      <p>Does it say <em>"No stations within 1 km"</em>? Keine Eile only covers Vienna. Outside the Wiener Linien network, you can still use the search and your favourites.</p>
+      <p>Does it say <span class="msg">No stations within 1 km</span>? Keine Eile only covers Vienna. Outside the Wiener Linien network, you can still use the search and your favourites.</p>
     </div>
     <div class="shots">
       <figure class="shot"><img src="images/guide/en-ios-app.jpg" width="600" height="495" loading="lazy" alt="iPhone Settings, Apps, Keine Eile: Location and Live Activities"></figure>
@@ -253,7 +258,7 @@
   <section class="guide" id="pace-problems">
     <div>
       <h3>Walking pace can't be learned</h3>
-      <p>If the app says <em>"Allow Motion &amp; Fitness in Settings"</em>, go to <strong>Settings</strong> → <strong>Privacy &amp; Security</strong> → <strong>Motion &amp; Fitness</strong> and turn on <strong>Keine Eile</strong>. It uses the step data of the last 7 days, so it works best once you've carried your iPhone for a few walks.</p>
+      <p>If the app says <span class="msg">Allow Motion &amp; Fitness in Settings</span>, go to <strong>Settings</strong> → <strong>Privacy &amp; Security</strong> → <strong>Motion &amp; Fitness</strong> and turn on <strong>Keine Eile</strong>. It uses the step data of the last 7 days, so it works best once you've carried your iPhone for a few walks.</p>
     </div>
   </section>
 
@@ -269,7 +274,9 @@
     </div>
   </section>
 
-  <div class="card">
+  </div>
+
+  <div class="card cta">
     <p><strong>Still stuck?</strong> Write to <a href="mailto:support@keineeile.app">support@keineeile.app</a>. Please tell us your iPhone model and iOS version, and add a screenshot if you can. More answers are on the <a href="support.html">support page</a>.</p>
   </div>
 
